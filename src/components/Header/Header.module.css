@@ -1,0 +1,39 @@
+.header {
+  height: 80px;
+  background-color: black;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.headerWrapper {
+  line-height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+    color: white;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.listItems {
+  margin-right: 20px;
+  list-style-type: none;
+  font-size: 20px;
+}
+
+.listItemsLink {
+  text-decoration: none;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(to right, red, fuchsia);
+}

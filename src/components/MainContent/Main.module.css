@@ -1,0 +1,33 @@
+.main {
+    margin-top: 50px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.AboutMe {
+    line-height: 40px;
+    height: 500px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 70px;
+}
+
+.mainInner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skillsBlock {
+    padding-top: 100px;
+}
+
+.skillsBlock img {
+    margin-right: 20px;
+    margin-top: 20px;
+}
